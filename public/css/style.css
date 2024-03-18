@@ -1,0 +1,67 @@
+/* Poppins Font's */
+*,
+html,
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* buat footer aja ada bug soalnya */
+@media (min-width: 992px) {
+    /* footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+    } */
+}
+
+:root {
+    --bg-lemon-green: #cdfadb;
+    --bg-blue-fresh: #96efff;
+    --bg-blue-fresh2: #c5fff8;
+}
+
+.bg-primary {
+    background-color: #40a2e3 !important;
+}
+
+.bg-cover-costum {
+    background-color: #f9f7f7;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form-control-kostum input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.is-invalid-kostum {
+    border: 0.8px solid #dc3545;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .form-control-kostum {
+        flex-direction: row;
+    }
+}
+
+/* HP */
+@media only screen and (max-width: 576px) {
+    /* Tambahkan gaya CSS di sini */
+    /* .d-sm-block { */
+    /* display: block !important; */
+    /* } */
+}
