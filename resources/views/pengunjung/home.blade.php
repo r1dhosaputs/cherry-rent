@@ -27,17 +27,17 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/storage/" class="d-block w-100 img-fluid" alt="noimage">
+                    <img src="/storage/{{ $slider[0]['slider_1'] }}" class="d-block w-100 img-fluid" alt="noimage">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/storage/" class="d-block w-100 img-fluid" alt="noimage">
+                    <img src="/storage/{{ $slider[0]['slider_2'] }}" class="d-block w-100 img-fluid" alt="noimage">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/storage/" class="d-block w-100 img-fluid" alt="noimage">
+                    <img src="/storage/{{ $slider[0]['slider_3'] }}" class="d-block w-100 img-fluid" alt="noimage">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
